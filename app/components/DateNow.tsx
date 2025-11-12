@@ -6,6 +6,6 @@ export default function DateNow() {
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     return (
-        <p className="text-neutral-0 text-center">{dayNames[dateNow.getDay()]}, {monthNames[dateNow.getMonth()]} {dateNow.getDate()}, {dateNow.getFullYear()}</p>
+        <p className="text-neutral-0 text-center font-semibold">{dayNames[dateNow.getDay()]}, {monthNames[dateNow.getMonth()]} {dateNow.getDate()}, {dateNow.getFullYear()}</p>
     );
 }

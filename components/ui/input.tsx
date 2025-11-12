@@ -12,7 +12,7 @@ export function BasicInput({
 	className?: string;
 }) {
 	return (
-		<div className={`${containerClassName} relative`}>
+		<div className={`${containerClassName} relative w-full`}>
 			<input
 				id={id}
 				placeholder={placeholder}

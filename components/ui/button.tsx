@@ -81,7 +81,7 @@ function PrimaryButton({
 	return (
 		<button
 			onClick={onClick}
-			className={`${className} text-center text-lg flex items-center justify-center gap-1 bg-blue-600 hover:bg-blue-800 text-neutral-0 rounded-xl p-3 hover:cursor-pointer`}
+			className={`${className} w-full text-center text-lg flex items-center justify-center gap-1 bg-blue-600 hover:bg-blue-800 text-neutral-0 rounded-xl p-3 hover:cursor-pointer`}
 		>
 			{children}
 		</button>
